@@ -15,7 +15,7 @@ import urllib.request
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CSV_PATH = ROOT / "archive (1)" / "arxiv_ai.csv"
+CSV_PATH = ROOT / "archive" / "arxiv_ai.csv"
 PDF_DIR = ROOT / "data" / "pdfs"
 MANIFEST = ROOT / "data" / "papers.csv"
 

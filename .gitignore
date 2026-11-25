@@ -2,7 +2,15 @@
 .venv/
 __pycache__/
 .pytest_cache/
+.ruff_cache/
+*.egg-info/
 .chroma/
-data/
+.cache/
+
+# corpus and index are rebuilt by scripts (data/papers.csv is tracked)
+data/pdfs/
+data/index/
+
+# raw Kaggle downloads
 archive*/
 arxiv paper dataset*
